@@ -1,0 +1,8 @@
+[
+  { "s_no": 1, "s_n": "Web Development", "s_d": "Web development is the process of building, programming..." },
+  { "s_no": 2, "s_n": "Digital Marketing", "s_d": "Grow brands online via SEO, social media, content." },
+  { "s_no": 3, "s_n": "Graphic Design", "s_d": "Design logos, posters, creative visuals." },
+  { "s_no": 4, "s_n": "Mobile App Development", "s_d": "Create cross-platform apps with React Native and Flutter." },
+  { "s_no": 5, "s_n": "Video Editing", "s_d": "Produce high-quality videos for marketing & social media." },
+  { "s_no": 6, "s_n": "E-commerce Solutions", "s_d": "Develop online stores with secure payment systems." }
+]

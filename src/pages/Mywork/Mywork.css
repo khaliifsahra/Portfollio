@@ -1,0 +1,101 @@
+
+.mywork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 180px;
+}
+
+.mywork-title {
+    position: relative;
+}
+
+.mywork-title h1 {
+    padding: 0px 30px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.mywork-title img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: 0;
+    top: -4px;
+    right: -36px;
+    z-index: -1;
+}
+
+.mywork-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.mywork-container img {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 350px;
+    height: 220px; 
+    object-fit: cover; 
+    border-radius: 18px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.mywork-container img:hover {
+    transform: scale(1.10);
+    border: 5px solid #ff00ff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.mywork-showmore {
+    display: flex;
+    gap: 15px;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 25px 40px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.mywork-showmore:hover {
+    gap: 30px;
+    transition: 0.6s;
+}
+
+
+
+@media (max-width: 1200px) {
+    .mywork { margin: 60px 100px; gap: 60px; }
+    .mywork-title h1 { font-size: 60px; padding: 0 20px; }
+    .mywork-title img { width: 60px; height: 60px; right: -25px; top: -4px; }
+    .mywork-container { grid-template-columns: 1fr 1fr; gap: 15px; }
+    .mywork-container img { max-width: 300px; height: 200px; }
+    .mywork-showmore { font-size: 20px; padding: 20px 35px; }
+}
+
+
+@media (max-width: 768px) {
+    .mywork { margin: 40px 30px; gap: 40px; }
+    .mywork-title h1 { font-size: 45px; text-align: center; }
+    .mywork-title img { width: 50px; height: 50px; right: -15px; top: -4px; }
+    .mywork-container { grid-template-columns: 1fr; gap: 15px; justify-items: center; }
+    .mywork-container img { max-width: 250px; height: 180px; }
+    .mywork-showmore { font-size: 18px; padding: 18px 30px; }
+}
+
+
+@media (max-width: 480px) {
+    .mywork { margin: 20px 15px; gap: 30px; }
+    .mywork-title h1 { font-size: 35px; }
+    .mywork-title img { width: 40px; height: 40px; right: -10px; top: -4px; }
+    .mywork-container img { max-width: 200px; height: 150px; }
+    .mywork-showmore { font-size: 16px; padding: 15px 25px; }
+}
