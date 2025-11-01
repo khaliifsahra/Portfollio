@@ -1,7 +1,7 @@
-import React from "react";
+
 import "./About.css";
 
-import profile_image2 from "..//../assets/Imgs/profile_image2.svg";
+import profile_image2 from "../../assets/Imgs/profile_image2.svg";
 import pp from "../../assets/Imgs/pp.png";
 const About = () => {
   return (
